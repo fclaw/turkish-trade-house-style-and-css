@@ -65,8 +65,8 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
     padding: 0.6rem;
   
   /* FOR DISPLAYING EVERY ELEMENT IN THE CENTER : */
