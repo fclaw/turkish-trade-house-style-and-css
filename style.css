@@ -1,5 +1,12 @@
 /* Styles go here */
 
+.content-image {
+  background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png');
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+
 .page-header, .page-header-space {
   height: 200px;
 }
@@ -13,17 +20,12 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-/*   border-top: 1px solid black; /* for demo */ */
-/*   background: yellow; /* for demo */ */
 }
 
 .page-header {
   position: fixed;
   top: 0mm;
   width: 100%;
-/*   background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png'); */
-/*   border-bottom: 1px solid black; /* for demo */ */
-/*   background: yellow; /* for demo */ */
 }
 
 .page {
