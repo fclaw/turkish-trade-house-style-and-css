@@ -278,4 +278,44 @@ ul li{
 /* nav bar end  */
 
 
+/* message start */
+
+.feedback_active {
+  background: transparent;
+  position: fixed;
+  z-index: 9000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.feedback {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 10000;
+  background: white;
+  transition: all 3s;
+  a {
+    font-size: 60px;
+    padding: 15px;
+    border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    span {
+      display: inline-block;
+      transition: transform 0.2s ease-in-out;
+      &:hover {
+        transform: rotate(20deg);
+      }
+    }
+  a span { color:black }   
+  }
+}
+
+
+/* message end  */
+
+
+
 
