@@ -9,6 +9,18 @@ html, body {
     background-position: center center;
 }
 
+@media screen and (min-width: 501px) {   
+    body{
+    	background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png');
+    } 
+}
+
+@media screen and (max-width: 500px) {   
+    body{
+    	background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/tth-background-mobile.jpg');
+    } 
+}
+
 .page-header, .page-header-space {
   height: 200px;
 }
