@@ -196,12 +196,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     color: orange;
 }
 
-.hamburger-menu-centre {
-  position: relative; 
-  top: -50%;
-  margin:0 auto;
-  width:500px;
-}
+.hamburger-menu-centre { #position: relative; #top: -50%;margin:0 auto;width:500px; }
 
 /* hamburger menu end */
 
