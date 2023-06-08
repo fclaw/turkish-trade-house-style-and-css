@@ -309,7 +309,7 @@ ul li{
         transform: rotate(20deg);
       }
     }
-  a span { color:black }   
+  a span { color:black; font-size: 60px; }   
   }
 }
 
