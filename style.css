@@ -265,20 +265,23 @@ ul li{
 
 /* nav bar start  */
 
-.parentDiv {
-  position: absolute;
-  width: 100%;
-  background-color: black;
-  color: white;
+.wrapper {
+    text-align: center;
+}
+   
+.wrapper ul {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   /* For IE, the outcast */
+   zoom:1;
+   *display: inline;
 }
 
-.nav {
-  text-align: center;
-}
-
-ul li{
-  display: inline-block;
-  padding: 0 5px;
+.wrapper li {
+   float: left;
+   padding: 2px 5px;
+   /* border: 1px solid black; */
 }
 
 /* nav bar end  */
