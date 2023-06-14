@@ -337,7 +337,7 @@ ul li{
 }
 
 .nb-form input[type='submit'] {
-    background: #03a9f4;
+    background: #000000;
 }
 
 @media screen and (max-width: 676px) {
