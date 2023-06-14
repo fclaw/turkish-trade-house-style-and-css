@@ -265,24 +265,15 @@ ul li{
 
 /* nav bar start  */
 
+/* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/  */
 .wrapper {
-    text-align: center;
+   height: 100px;
+   position: relative; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
    
-.wrapper ul {
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-   /* For IE, the outcast */
-   zoom:1;
-   *display: inline;
-}
-
-.wrapper li {
-   float: left;
-   padding: 2px 5px;
-   /* border: 1px solid black; */
-}
 
 /* nav bar end  */
 
