@@ -23,7 +23,10 @@ html, body {
 @media screen and (max-width: 500px) {   
     body{
     	background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/tth-background-mobile.jpg');
-    } 
+    }
+   form {
+      width: 50px;
+   }
 }
 
 .page-header, .page-header-space {
