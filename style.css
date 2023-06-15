@@ -14,7 +14,7 @@ html, body {
     background-position: center center;
 }
 
-@media screen and (min-width: 501px) {   
+/* @media screen and (min-width: 501px) {   
     body{
     	background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png');
     } 
@@ -24,7 +24,7 @@ html, body {
     body{
     	background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/tth-background-mobile.jpg');
     }
-}
+} */
 
 .page-header, .page-header-space {
   height: 200px;
@@ -378,6 +378,7 @@ header-logo-wrapper {
    position: absolute;
    top: 0;
    margin: 0 auto;
+   background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png');
 }
 
 /* nav bar end  */
