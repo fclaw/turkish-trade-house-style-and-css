@@ -393,5 +393,20 @@ ul li{
 
 /* nav bar end  */
 
+/* content wrapper start */
+
+.content-wrapper {
+  height: 800px;
+   position: relative; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 100px;
+   padding-right: 100px;  
+}
+
+/*  content wrapper end */
+
+
 
 
