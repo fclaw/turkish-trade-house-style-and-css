@@ -408,6 +408,16 @@ ul li{
 
 /*  content wrapper end */
 
+.header-lang-wrapper {
+   height: 50px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin-right: 60px;
+   margin-top: 40px
+}
+
+
 
 
 
