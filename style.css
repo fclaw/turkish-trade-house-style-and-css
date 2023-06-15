@@ -365,14 +365,20 @@ ul li{
 /* nav bar start  */
 
 /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/  */
-.wrapper {
-   height: 100px;
+.header-wrapper {
+   height: 250px;
    position: relative; 
    display: flex;
    justify-content: center;
    align-items: center;
 }
-   
+
+header-logo-wrapper {
+   height: 250px;
+   position: absolute;
+   top: 0;
+   margin: 0 auto;
+}
 
 /* nav bar end  */
 
