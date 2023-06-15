@@ -373,12 +373,23 @@ ul li{
    align-items: center;
 }
 
-header-logo-wrapper {
-   height: 250px;
+.header-logo-wrapper {
+   height: 150px;
+   width: 100%;
    position: absolute;
    top: 0;
    margin: 0 auto;
    background-image: url('https://raw.githubusercontent.com/fclaw/turkish-trade-house-style-and-css/main/header.png');
+   background-repeat:no-repeat;
+   background-position: center center;
+}
+
+.header-menu-wrapper {
+   height: 50px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   margin: 0 auto;
 }
 
 /* nav bar end  */
