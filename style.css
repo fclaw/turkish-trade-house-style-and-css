@@ -133,6 +133,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     top: 0;
     transform: rotate(45deg);
     background: white;
+    z-index: 999;
 }
 
 /* AND ROTATING THE TOP AND BOTTOM LINES :  */
@@ -141,6 +142,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     top: 0;
     transform: rotate(135deg);
     background: white;
+    z-index: 999;
 }
 
 
@@ -150,7 +152,10 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     background: black;
     width: 0%;
     height: 100vh;
-  
+    position: absolute;
+    top: 0;
+    left: 0;
+   
   /* APPLYING TRANSITION TO THE MENU :  */
   
     transition: all 0.4s ease;
