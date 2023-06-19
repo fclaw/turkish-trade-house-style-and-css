@@ -23,7 +23,7 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0%);
-    transition-delay: 1000ms;
+    transition-delay: 10000ms;
 }
 
 .cookiealert a {
