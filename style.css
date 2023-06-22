@@ -51,6 +51,10 @@ html, body {
   page-break-after: always;
 }
 
+.copyright-plaque {
+   display: block
+}
+
 @page {
   margin: 20mm
 }
@@ -363,6 +367,9 @@ ul li{
         left: 50%;
         transform: translateX(-50%);
     }
+   .copyright-plaque {
+        display: none
+   ]
 }
 
 /* message end  */
