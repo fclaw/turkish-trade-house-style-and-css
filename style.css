@@ -52,7 +52,7 @@ html, body {
 }
 
 .copyright-plaque {
-   display: block
+   visibility: visible;
 }
 
 @page {
@@ -368,7 +368,7 @@ ul li{
         transform: translateX(-50%);
     }
    .copyright-plaque {
-        display: none
+        visibility: hidden;
    ]
 }
 
