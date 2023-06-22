@@ -229,7 +229,7 @@ ul li{
     position: fixed;
     z-index: 9999;
     width: 300px;
-    background: #F5F5F0;
+    background: #FFFFFF;
     right: 20px;
     bottom: -400px;
     transition: all .8s cubic-bezier(.22, .67, .43, 1.22) .2s;
