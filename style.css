@@ -421,6 +421,10 @@ ul li{
     background: #000000;
 }
 
+.nb-form-collapse input[type='submit'] {
+    background: #000000;
+}
+
 @media screen and (max-width: 676px) {
     .nb-form:hover .user-icon {
         display: none;
