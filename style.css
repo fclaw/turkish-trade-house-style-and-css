@@ -51,10 +51,10 @@ html, body {
   page-break-after: always;
 }
 
-.copyright-plaque {
+/* .copyright-plaque {
    visibility: visible;
 }
-
+ */
 @page {
   margin: 20mm
 }
