@@ -505,16 +505,18 @@ ul li{
    margin-top: 40px
 }
 
+/* reCaptcha */
+
 .grecaptcha-badge {
   width: 70px !important;
   overflow: hidden !important;
   transition: all 0.3s ease !important;
-  left: 0px !important;
-}
-.grecaptcha-badge:hover {
-  width: 300px !important;
+  left: 4px !important;
 }
 
+.grecaptcha-badge:hover {
+  width: 256px !important;
+}
 
 
 
