@@ -438,14 +438,18 @@ ul li{
         padding-top: 15px;
     }
     .nb-form{
-        right: 40%;
+        right: 50%;
         bottom: -405px;
-        left: 60%;
+        left: 50%;
         transform: translateX(-50%);
     }
    .copyright-plaque {
         visibility: hidden;
    }
+   .grecaptcha-badge {
+      visibility: hidden;
+   }
+
 }
 
 /* message end  */
