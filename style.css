@@ -536,7 +536,7 @@ ul li{
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: #000;
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
