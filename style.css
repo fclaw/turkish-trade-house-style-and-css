@@ -533,6 +533,20 @@ ul li{
   transform: translateY(-50%);
 }
 
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #000;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
 /* load spinner end */
 
 
