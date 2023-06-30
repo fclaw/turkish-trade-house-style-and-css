@@ -450,6 +450,10 @@ ul li{
       visibility: hidden;
    }
 
+   .content-wrapper {
+      z-index: -10;
+   }
+
 }
 
 /* message end  */
