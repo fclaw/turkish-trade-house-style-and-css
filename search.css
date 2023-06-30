@@ -1,6 +1,6 @@
 .search-container {
   position: absolute;
-  top: 0px;
+  top: -50px;
 }
 
 .search-container-form{
@@ -42,7 +42,7 @@ input#search-bar{
   width: 75px;
   height: 75px;
   top: -62px;
-  right: -45px;
+  right: -5px;
 }
 
 
