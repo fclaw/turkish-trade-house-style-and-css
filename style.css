@@ -495,7 +495,7 @@ ul li{
    align-items: center;
    padding-left: 100px;
    padding-right: 100px;
-   z-index: -10;
+   z-index: 2;
 }
 
 /*  content wrapper end */
